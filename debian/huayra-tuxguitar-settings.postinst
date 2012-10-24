@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+  adduser timidity pulse
+  update-rc.d timidity defaults
+  service timidit start
+  exit 0
+
+fi
+
+#DEBHELPER#
