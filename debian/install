@@ -1,1 +1,2 @@
-etc/skel /etc/skel
+etc/skel/.tuxguitar-1.2 /etc/skel
+timidity-launcher.desktop /usr/share/gnome/autostart
