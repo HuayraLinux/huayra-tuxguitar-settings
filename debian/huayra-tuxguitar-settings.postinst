@@ -2,7 +2,6 @@
 set -e
 
 if [ "$1" = "configure" ]; then
-  adduser timidity pulse
   nohup timidity -Os -iAs > /dev/null &
   exit 0
 fi
