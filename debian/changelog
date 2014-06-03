@@ -1,3 +1,10 @@
+huayra-tuxguitar-settings (1.2) unstable; urgency=medium
+
+  * Agrego dependencia en tuxguitar-alsa.
+  * Autostart no solo para GNOME
+
+ -- Mauro <mauro@krutt.org>  Tue, 03 Jun 2014 15:26:32 -0300
+
 huayra-tuxguitar-settings (1.1-huayra1) testing; urgency=low
 
   * Corrección postinst

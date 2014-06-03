@@ -3,15 +3,10 @@ Section: sound
 Priority: optional
 Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
-#Homepage: <insert the upstream URL, if relevant>
-Vcs-Git: git@200.55.245.7:/huayra-tuxguitar-settings.git
+Standards-Version: 3.9.5
 
 Package: huayra-tuxguitar-settings
-Section: sound
-Priority: optional
 Architecture: all
-Essential: no
-Depends: tuxguitar, timidity
-Description: Configuración de tuxguitar personalizada para Huayra.
+Depends: ${misc:Depends}, tuxguitar, timidity, tuxguitar-alsa
+Description: Configuración de tuxguitar personalizada para Huayra
  Utiliza timidity para reproducir audio.
